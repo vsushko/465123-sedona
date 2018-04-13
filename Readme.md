@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Vasiliy Sushko](https://up.htmlacademy.ru/adaptive/14/user/465123).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Походня](https://up.htmlacademy.ru/adaptive/14/user/166319).
 
 ---
 
