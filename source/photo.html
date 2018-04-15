@@ -28,14 +28,89 @@
       </div>
     </nav>
     <a class="page-header__logo">
-      <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="102" height="83" alt="Sedona logo">
+      <img class="page-header__logo-image" src="img/logotype-mobile.jpg" width="102" height="83" alt="Sedona logo">
     </a>
   </header>
   <main class="page-main">
     <section class="main-header">
       <img class="main-header__banner-image" src="img/back-mobile.svg" width="320" height="389" alt="Greeting banner">
-      <h1 class="main-header__title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
-      <p class="main-header__description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+      <h1 class="main-header__title">Фото и видео</h1>
+      <p class="main-header__description">Не можете решиться на путешествие из-за курса? Фотографии помогут Вам забыть о политике и экономике.</p>
+    </section>
+    <section class="gallery">
+      <h1 class="visually-hidden">Галлерея</h1>
+      <ul class="gallery-post__list post">
+        <li class="gallery-post__item">
+          <figure class="post__figure figure">
+            <a class="figure__link" href="#">
+              <img class="figure__image" src="img/photo-1-mobile.jpg" width="280" height="280" alt="Неродные просторы. Автор фото: Борис">
+            </a>
+            <figcaption class="figure__caption">Неродные просторы</figcaption>
+            <span class="figure_author">Автор фото: Борис</span>
+            <br>
+            <span class="likes_count">1350</span>
+          </figure>
+        </li>
+        <li class="gallery-post__item">
+          <figure class="post__figure figure">
+            <a class="figure__link" href="#">
+              <img class="figure__image" src="img/photo-2-mobile.jpg" width="280" height="280" alt="Местная растительность. Автор фото: Сергей">
+            </a>
+            <figcaption class="figure__caption">Местная растительность</figcaption>
+            <span class="figure_author">Автор фото: Сергей</span>
+            <br>
+            <span class="likes_count">143</span>
+          </figure>
+        </li>
+        <li class="gallery-post__item">
+          <figure class="post__figure figure">
+            <a class="figure__link" href="#">
+              <img class="figure__image" src="img/photo-3-mobile.jpg" width="280" height="280" alt="Дорога на север. Автор фото: Петр">
+            </a>
+            <figcaption class="figure__caption">Дорога на север</figcaption>
+            <span class="figure_author">Автор фото: Петр</span>
+            <br>
+            <span class="likes_count">96</span>
+          </figure>
+        </li>
+        <li class="gallery-post__item">
+          <figure class="post__figure figure">
+            <a class="figure__link" href="#">
+              <img class="figure__image" src="img/photo-4-mobile.jpg" width="280" height="280" alt="Мост дьявола. Автор фото: Антон">
+            </a>
+            <figcaption class="figure__caption">Мост дьявола</figcaption>
+            <span class="figure_author">Автор фото: Антон</span>
+            <br>
+            <span class="likes_count">254</span>
+          </figure>
+        </li>
+      </ul>
+    </section>
+    <section class="gallery__video video">
+      <div class="video__promo">
+        <b class="video__title">Все еще сомневаетесь?</b>
+        <p class="video__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+      </div>
+      <div class="video__container">
+        <video controls width="321" height="201" poster="img/video-mobile.jpg">
+          <source src="#" type="video/mp4">
+          <source src="#" type="video/ogg">
+          <source src="#" type="video/webm">
+        </video>
+        <div class="video__controls controls">
+          <div class="controls__volume-scale">
+            <div class="controls__scale">
+              <div class="controls__bar"></div>
+            </div>
+            <div class="controls__toggle"></div>
+          </div>
+          <div class="controls__button">
+            <button class="controls__replay" type="button"></button>
+            <button class="controls__subtitles" type="button"></button>
+            <button class="controls__fullscreen" type="button"></button>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
   <footer class="page-footer">
