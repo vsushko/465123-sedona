@@ -35,8 +35,85 @@
   <main class="page-main">
     <section class="main-header">
       <img class="main-header__banner-image" src="img/back-mobile.svg" width="320" height="389" alt="Greeting banner">
-      <h1 class="main-header__title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
-      <p class="main-header__description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+      <h1 class="main-header__title">Оставьте свой отзыв</h1>
+      <p class="main-header__description">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+    </section>
+    <section class="feedback">
+      <form class="feedback__form user-info" action="https://echo.htmlacademy.ru" method="POST">
+        <fieldset class="user-info__fieldset">
+          <legend>Представьтесь:</legend>
+          <ul class="user-info__list">
+            <li class="user-info__item">
+              <label for="firstname">Имя*:</label>
+              <input class="user-info__text" type="text" name="firstname" id="firstname" placeholder="Петр" required>
+            </li>
+            <li class="user-info__item">
+              <label for="lastname">Фамилия*:</label>
+              <input class="user-info__text" type="text" name="lastname" id="lastname" placeholder="Иванов" required>
+            </li>
+            <li class="user-info__item">
+              <label for="middlename">Отчество:</label>
+              <input class="user-info__text" type="text" name="middlename" id="middlename" placeholder="Александрович" required>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="user-contacts__fieldset">
+          <legend>Контактная информация:</legend>
+          <ul class="user-contacts__list">
+            <li class="user-contacts__item">
+              <label for="tel">Контактный телефон*:</label>
+              <input class="user-contacts__text" type="tel" name="tel" id="tel" placeholder="Введите телефон" required>
+            </li>
+            <li class="user-contacts__item">
+              <label for="email">Электронная почта*:</label>
+              <input class="user-contacts__text" type="email" name="email" id="email" placeholder="Введите e-mail" required>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="overall-impression__fieldset">
+          <legend>Общее впечатление:</legend>
+          <ul class="overall-impression__list">
+            <li class="overall-impression__item">
+              <label for="positive">Скорее положительное</label>
+              <input class="overall-impression__radio" type="radio" name="positive" id="positive" checked>
+            </li>
+            <li class="overall-impression__item">
+              <label for="negative">Скорее отрицательное:</label>
+              <input class="overall-impression__radio" type="radio" name="negative" id="negative">
+            </li>
+            <li class="overall-impression__item">
+              <label for="notsure">Затрудняюсь ответить:</label>
+              <input class="overall-impression__radio" type="radio" name="notsure" id="notsure">
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="visited-sightseeing__fieldset">
+          <legend>Посещенные достопримечательности:</legend>
+          <ul class="visited-sightseeing__list">
+            <li class="visited-sightseeing__item">
+              <label for="devilsbridge">Мост Дьявола</label>
+              <input class="visited-sightseeing__checkbox" type="checkbox" name="devilsbridge" id="devilsbridge" checked>
+            </li>
+            <li class="visited-sightseeing__item">
+              <label for="bellmountain">Гора-Колокол</label>
+              <input class="visited-sightseeing__checkbox" type="checkbox" name="bellmountain" id="bellmountain" checked>
+            </li>
+            <li class="visited-sightseeing__item">
+              <label for="slidepark">Слайд-парк</label>
+              <input class="visited-sightseeing__checkbox" type="checkbox" name="slidepark" id="slidepark" checked>
+            </li>
+            <li class="visited-sightseeing__item">
+              <label for="redrocks">Красные скалы</label>
+              <input class="visited-sightseeing__checkbox" type="checkbox" name="redrocks" id="redrocks">
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="emotions__fieldset">
+          <legend>Опишите свои эмоции:</legend>
+          <textarea class="emotions__textarea" name="description" placeholder="Опишите подробно все свои восторги"></textarea>
+        </fieldset>
+        <button class="form__button button" type="submit">Отправить отзыв</button>
+      </form>
     </section>
   </main>
   <footer class="page-footer">
